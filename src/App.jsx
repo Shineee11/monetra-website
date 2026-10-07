@@ -1,30 +1,30 @@
 export default function App() {
   const painPoints = [
     "Posting → promoting → waiting",
-    "No guest pipeline to fall back on",
-    "Every event feels like starting from zero",
+    "No customer pipeline to fall back on",
+    "Every month feels like starting from zero",
     "Revenue depends on luck, not structure",
   ];
 
   const services = [
     {
-      title: "Brand Activation",
+      title: "Operational Systems",
       description:
-        "We sharpen your positioning, your event messaging, and your front-end presence so your brand stops looking random and starts feeling intentional.",
+        "We build your custom backend—CRM pipelines, POS ledgers, and automated lead capture—so your business tracks every dollar and customer without the chaos.",
       accent: "from-[#ff5a4f] to-[#ff7d73]",
       hover: "hover:border-[#ff5a4f]/35",
     },
     {
-      title: "Operational Systems",
+      title: "Demand Generation",
       description:
-        "Guest lists, promoter flow, backend organization, lead capture, and the structure that keeps everything from falling apart when pressure hits.",
+        "We deploy targeted short-form content engines, micro-creator seeding, and hype campaigns to drive consistent eyeballs and foot traffic directly into your systems.",
       accent: "from-[#5b19d6] to-[#7a43e3]",
       hover: "hover:border-[#5b19d6]/35",
     },
     {
       title: "Revenue Structuring",
       description:
-        "We help event-based brands turn attention into repeatable revenue instead of praying each event somehow carries itself.",
+        "We connect your external marketing to your internal infrastructure, turning random walk-ins and messy DMs into trackable Lifetime Value (LTV).",
       accent: "from-[#ff5a4f] to-[#5b19d6]",
       hover: "hover:border-white/20",
     },
@@ -52,8 +52,8 @@ export default function App() {
   ];
 
   const outcomes = [
-    "Stronger event hype cycles",
-    "Cleaner guest and promoter flow",
+    "Stronger launch & promo cycles",
+    "Cleaner customer & lead flow",
     "Less backend chaos",
     "More consistent brand execution",
     "Better conversion from attention to revenue",
@@ -64,12 +64,12 @@ export default function App() {
     {
       question: "Who is Monetra for?",
       answer:
-        "Monetra is for nightlife brands, event-based businesses, and growth-focused concepts that already have attention but no real structure behind it.",
+        "Monetra is for retail, hospitality, and service-based businesses that already have a great product or aesthetic, but lack the digital structure to scale predictably.",
     },
     {
       question: "What do you actually help with?",
       answer:
-        "Positioning, event marketing systems, backend organization, guest flow, promoter structure, and turning attention into repeatable revenue.",
+        "Custom CRM & POS infrastructure, automated booking funnels, short-form video engines, and targeted launch campaigns.",
     },
     {
       question: "Is this for everyone?",
@@ -89,7 +89,7 @@ export default function App() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(91,25,214,0.22),transparent_38%),radial-gradient(circle_at_82%_18%,rgba(255,90,79,0.18),transparent_28%),linear-gradient(to_bottom,rgba(255,255,255,0.02),transparent)]" />
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#ff5a4f]/70 to-transparent" />
 
-        <div className="relative mx-auto flex max-w-7xl flex-col gap-14 px-6 py-7 md:px-10 md:py-8">
+        <div className="relative mx-auto flex max-w-7xl flex-col gap-8 px-6 py-7 md:px-10 md:py-8">
           <header className="flex items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <img src="/logo-icon.png" className="h-8 w-8 object-contain" alt="Monetra logo" />
@@ -97,22 +97,15 @@ export default function App() {
                 Monetra
               </div>
             </div>
-
-            <a
-              href="#audit"
-              className="rounded-full border border-white/15 bg-white/5 px-5 py-2 text-sm font-medium text-white/90 transition hover:border-[#5b19d6]/40 hover:bg-white hover:text-black hover:shadow-[0_0_20px_rgba(91,25,214,0.25)]"
-            >
-              Free Growth Audit
-            </a>
           </header>
 
           <div className="grid min-h-[calc(100svh-96px)] items-center gap-8 py-2 sm:py-4 lg:grid-cols-[1.08fr_0.92fr] lg:py-8">
             <div className="max-w-3xl">
               <div className="mb-5 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-white/60 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
-                Monetization Agency
+                Operational Growth Agency
               </div>
 
-              <h1 className="max-w-[12ch] text-[3.2rem] font-semibold leading-[0.92] tracking-[-0.05em] sm:max-w-none sm:text-6xl md:text-7xl">
+              <h1 className="max-w-[12ch] text-[3.2rem] font-semibold leading-[1.1] tracking-[-0.05em] sm:max-w-none sm:text-6xl md:text-7xl">
                 Stop hoping
                 <span className="block text-white/50">people show up.</span>
                 <span className="block bg-gradient-to-r from-[#ff5a4f] via-[#ff5a4f] to-[#5b19d6] bg-clip-text text-transparent">
@@ -121,9 +114,9 @@ export default function App() {
               </h1>
 
               <p className="mt-6 max-w-xl text-[1.05rem] leading-8 text-white/65 md:text-lg">
-                Monetra helps nightlife brands and event-based businesses turn
-                scattered promotion, backend chaos, and inconsistent turnout into
-                structured, repeatable revenue.
+                Monetra helps retail, hospitality, and service-based businesses 
+                turn scattered promotion, backend chaos, and inconsistent foot traffic 
+                into structured, repeatable revenue.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -145,7 +138,6 @@ export default function App() {
             <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-5 shadow-2xl backdrop-blur-xl sm:p-6">
               <div className="mb-4 flex items-center justify-between text-sm uppercase tracking-[0.25em] text-white/45">
                 <span>Reality check</span>
-                <span className="h-2 w-2 rounded-full bg-[#ff5a4f] shadow-[0_0_18px_rgba(255,90,79,0.8)]" />
               </div>
               <div className="space-y-4">
                 {painPoints.map((item, index) => (
@@ -188,7 +180,7 @@ export default function App() {
               They have a structure problem. No pipeline. No operational logic. No reliable backend. No system keeping things moving when pressure hits.
             </p>
             <p>
-              So every event starts to feel like the same cycle all over again: post, promote, wait, and hope people show up.
+              So every launch or sales cycle feels like starting over: post, promote, wait, and hope people show up.
             </p>
             <p className="text-white/82">
               Monetra exists to fix what is actually broken behind the brand.
@@ -287,30 +279,34 @@ export default function App() {
       </section>
 
       <section className="border-b border-white/10 px-6 py-20 md:px-10">
-        <div className="mx-auto max-w-6xl rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 md:p-10 shadow-[0_0_0_1px_rgba(255,255,255,0.03)]">
-          <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
-            <div>
-              <div className="mb-4 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.24em] text-white/55">
-                Built for event-based brands
-              </div>
-              <h2 className="text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
-                Every event should not feel like you are starting from zero.
-              </h2>
-            </div>
-            <div className="space-y-5 text-base leading-7 text-white/68">
-              <p>
-                If a cancellation, a slow week, or one bad promo cycle can throw the entire brand off, the issue is deeper than marketing.
-              </p>
-              <p>
-                The issue is that there is nothing underneath holding the momentum together.
-              </p>
-              <p className="text-white/85">
-                That is the gap Monetra is designed to solve.
-              </p>
-            </div>
-          </div>
+  <div className="relative overflow-hidden mx-auto max-w-6xl rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 md:p-10 shadow-[0_0_40px_rgba(66,14,153,0.15)] transition-colors hover:border-[#420e99]/40">
+    
+    {/* Subtle violet inner glow */}
+    <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-[#420e99]/15 via-transparent to-transparent opacity-60"></div>
+
+    <div className="relative z-10 grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+      <div>
+        <div className="mb-4 inline-flex items-center rounded-full border border-[#f54f41]/30 bg-[#f54f41]/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.24em] text-[#f54f41]">
+          Built for physical & service brands
         </div>
-      </section>
+        <h2 className="text-3xl font-semibold tracking-[-0.03em] sm:text-4xl">
+          Every month should not feel like you are starting from zero.
+        </h2>
+      </div>
+      <div className="space-y-5 text-base leading-7 text-white/68">
+        <p>
+          If a slow foot-traffic week, a flat product launch, or one bad promo cycle can throw the entire business off, the issue is deeper than marketing.
+        </p>
+        <p>
+          The issue is that there is nothing underneath holding the momentum together.
+        </p>
+        <p className="font-medium text-white/90">
+          That is the gap Monetra is designed to solve.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section id="audit" className="relative border-b border-white/10 px-6 py-20 md:px-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(91,25,214,0.12),transparent_30%),radial-gradient(circle_at_20%_100%,rgba(255,90,79,0.10),transparent_26%)]" />
@@ -385,7 +381,7 @@ export default function App() {
               Instagram
             </a>
             <a
-              href="mailto:support@monetraofficial.com?subject=Monetra Inquiry&body=Hi, I'm interested in working with Monetra."
+              href="mailto:monetra-agency@monetraofficial.com?subject=Monetra Inquiry&body=Hi, I'm interested in working with Monetra."
               className="transition hover:text-[#5b19d6]"
             >
               Contact Us
