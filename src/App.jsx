@@ -99,7 +99,7 @@ export default function App() {
             </div>
           </header>
 
-          <div className="grid min-h-[calc(100svh-96px)] items-center gap-8 py-2 sm:py-4 lg:grid-cols-[1.08fr_0.92fr] lg:py-8">
+          <div className="grid min-h-[calc(100svh-96px)] items-start gap-8 py-2 sm:py-4 lg:grid-cols-[1.08fr_0.92fr] lg:py-4">
             <div className="max-w-3xl">
               <div className="mb-5 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-white/60 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
                 Operational Growth Agency
