@@ -321,7 +321,7 @@ export default function App() {
             This is not for everyone. Only brands serious about growth should apply.
           </p>
           <a
-            href="https://forms.gle/2MBP3EVnXzjpnVvi9"
+            href="https://magenta-catshark-544.notion.site/401bc2d519de80348ab4de44c551a12c?pvs=105"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[#ff5a4f] to-[#5b19d6] px-8 py-3 text-center font-medium text-white shadow-[0_12px_32px_rgba(91,25,214,0.26)] transition hover:scale-[1.03] hover:shadow-[0_16px_40px_rgba(91,25,214,0.34)] sm:min-w-[260px]"
